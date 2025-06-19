@@ -341,6 +341,16 @@ menu_item2.name = 'あずにゃんぐっず'
 menu_item2.price = 800 //値段
 
 
+
+class ntk;
+  
+ def info(self):   
+　print()
+
+　munu_gannba = ganba31()
+  munu_gannba = 今日やりたかったことを入れる
+　munu_gannba　= 740 // 値段（やるための値段）
+
 menu_item2.info()
 
 
