@@ -220,3 +220,75 @@ if validate(player_hand):
 else:
     print('正しい数値を入力してください')
 
+
+//テスト
+
+class MenuItem:
+    pass
+
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item1 = MenuItem()
+
+//インスタンスを生成する
+
+menu_item1.price = 500　//ミクを呼び出した回数を代入する
+
+print(menu_item1.price)
+
+//ここにミクを呼び出した数が出力される
+
+
+
+class MenuItem:
+    pass
+
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'サンドイッチ'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 チョコケーキ 」を代入してください
+menu_item2.name = '河野悠右'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に 400 を代入してください
+menu_item2.price = 1994　（生年月日）
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
+
+//メソッドの作り方
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'サンドイッチ'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 チョコケーキ 」を代入してください
+menu_item2.name = '初音ミク'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に 400 を代入してください
+menu_item2.price = 20070831（生年月日）
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
+
