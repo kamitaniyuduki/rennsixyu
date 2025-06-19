@@ -292,3 +292,56 @@ menu_item2.price = 20070831（生年月日）
 # menu_item2 の price を出力してください
 print(menu_item2.price)
 
+
+
+//裏金議員の数
+
+menu_item1 = MenuItem()
+
+menu_item1.name = '裏金議員'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 チョコケーキ 」を代入してください
+menu_item2.name = '裏金議員安部派'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に 裏金の数 を代入してください
+menu_item2.price = 500000000
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
+
+//終了
+
+//メソッド立て方
+
+class MenuItem:
+    # info メソッドを定義してください
+    
+   def info(self):            
+    print('メニューの名前と値段が表示されます')
+
+menu_item1 = MenuItem()
+menu_item1.name = 'アニメグッズ'
+menu_item1.price = 500
+
+# menu_item1 に対して info メソッドを呼び出してください
+
+
+menu_item2 = MenuItem()
+menu_item2.name = 'あずにゃんぐっず'
+menu_item2.price = 800 //値段
+
+
+menu_item2.info()
+
+
+
