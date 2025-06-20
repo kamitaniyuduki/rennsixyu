@@ -748,3 +748,36 @@ class Main {
 
 
 　//これをリアリティのある数値に直す
+
+
+
+class Main {
+  public static void main(String[] args) {
+    int number1 = 7;
+    int number2 = 2;
+    System.out.println(number1 / number2);
+    //使った数と実際に幻聴なしでプレイできた回数で割ると確率が出る（これは架空の数値で実際の幻聴と違う）
+    
+    // number1をdouble型にキャストし、number2で割った値を出力してください
+    System.out.println((double)number1 / number2);
+    
+  }
+}
+
+
+
+
+class Main {
+  public static void main(String[] args) {
+    String[] names = {"初音ミク", "重音テト", "阿北ネル"};
+    
+    // 配列用のfor文を用いて、「私の名前は◯◯です」と出力してください
+    for (String name : names) {
+      System.out.println("私の名前は" + name + "です");
+    }
+  }
+}
+
+//ランダムの中から一人だけが表示される　一人ずつ表示される
+
+
