@@ -466,3 +466,234 @@ class Main {
     //正しいデータにカルテを書き換える練習
   }
 }
+
+
+class Main {
+  public static void main(String[] args) {
+    int number = 3;
+    System.out.println(number);
+    
+    // 変数numberの値に新しい料理分12個を足して、変数numberを上書きしてください
+    number = number + 12;
+    
+    // 変数number料理の数を出力してください
+    System.out.println(number);
+      
+  }
+}
+
+
+
+class Main {
+  public static void main(String[] args) {
+    int number = 3;
+    System.out.println(number);
+    
+    // 変数numberの値に新しい料理分12個を足して、変数numberを上書きしてください
+    number = number + 12;
+　　String　name;
+   name = "ラーメン" 
+//(これでラーメンの数はわかる）
+   numeber2 = numuber2 + 32;
+    String name2;
+   name2 =”餃子";
+   
+    // 変数number料理の数を出力してください
+    System.out.println(number);
+     System.out.println(name1);
+      System.out.println(number2);
+       System.out.println(name2);
+  }
+}
+
+//ラーメンの個数が間違っていたのでハッキングして書き換えます
+class Main {
+  public static void main(String[] args) {
+    int number = 8;
+    
+    // 変数numberに7をかけて、変数numberを上書きしてください
+    number *= 7;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+    // 変数numberの値に1を足して、変数numberを上書きしてください　ラーメンを一つ追加
+    number++;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+  }
+}
+
+
+
+
+//カルテの個数が間違っていたのでハッキングして書き換えます
+class Main {
+  public static void main(String[] args) {
+//薬の数を書き換えます
+    int number = 8;
+    
+    // 変数numberに7をかけて、変数numberを上書きしてください　もっと薬漬けにしてください
+    number *= 7;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+    // 変数numberの値に1を足して、変数numberを上書きしてください　薬を一つ追加
+    number++;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+  }
+}
+
+
+
+//議員の数
+
+menu_item1 = MenuItem()
+
+menu_item1.name = '議員'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 チョコケーキ 」を代入してください
+menu_item2.name = '裏金議員'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に 国民にお金配りをする議員の数 を代入してください
+menu_item2.price = 1
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
+
+
+
+
+//ハッキングして役職をあげてください
+
+class Main {
+  public static void main(String[] args) {
+    int number = 20;
+    String text = "みずりん";
+    System.out.println(number);
+    System.out.println(text);
+    
+    // 変数numberを9で上書きしてください
+    number = 1;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+    // 変数textを「Java」で上書きしてください
+    text = "団長";
+    
+    // 変数textを出力してください
+    System.out.println(text);
+
+    //役職を書き換えるハッキング
+  }
+}
+
+
+
+
+
+
+
+//カルテの個数が間違っていたのでハッキングして書き換えます
+class Main {
+  public static void main(String[] args) {
+//ラーメンの数
+    int number = 8;
+    
+    // 変数numberに7をかけて、変数numberを上書きしてください　ラーメンの数が間違っていました
+    number *= 7;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+    // 変数numberの値に1を足して、変数numberを上書きしてください　替え玉を三つ追加
+    number++;
+  　number++;
+  　number++;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+  }
+}
+
+
+//黒い砂漠の大砲の角度計算です
+class Main {
+  public static void main(String[] args) {
+    int length = 20;
+    int height = 32;
+//座標を入力します
+    
+    // 変数rectangleAreaに、大砲のあたり位置を代入してください
+    int rectangleArea = length * height;
+    
+    // 変数rectangleAreaを出力してください
+    System.out.println(rectangleArea);
+    
+  }
+}
+
+//学校の校庭の広さを求めます
+
+class Main {
+  public static void main(String[] args) {
+    int length = 6;
+    int height = 8;
+    
+    // 変数rectangleAreaに、四角形の面積を代入してください
+    int rectangleArea = length * height;
+    
+    // 変数rectangleAreaを出力してください
+    System.out.println(rectangleArea);
+    
+    // 変数triangleAreaに、三角形の面積を代入してください
+    int triangleArea = length * height / 2;
+    
+    // 変数triangleAreaを出力してください
+    System.out.println(triangleArea);
+    
+  }
+}
+
+
+
+
+
+
+class Main {
+  public static void main(String[] args) {
+    // double型の変数number1を定義し、8.5を代入してください。//（ゲームに使った時間）
+    double number1 = 8.5;
+    
+    // double型の変数number2を定義し、3.4を代入してください。//（アニメに使った時間）
+    double number2 = 3.4;
+    
+    // number1にnumber2を足した値を出力してください
+    System.out.println(number1 + number2);
+    
+    // number1からnumber2を引いた値を出力してください
+    System.out.println(number1 - number2);
+    
+  }
+}
+
+
+
