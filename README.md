@@ -1048,5 +1048,68 @@ txst　= そらが荒らし始める
 txst ＝　卯月が敵に倒されたとき
 
 
-　
+　class Main {
+  public static void main(String[] args) {
+    String[] names = {"かみや", "卯月", "ザクロ"};
+    
+    // 配列用のfor文を用いて、「私の名前は◯◯です」と出力してください
+    for (String name : names) {
+      System.out.println("私の名前は" + name + "です");
+    }
+  }
+}
+
+
+//データを入れていく
+class Main {
+  public static void main(String[] args) {
+    // fullNameメソッドの結果を変数nameに代入してください
+    String name = fullName("初音", "ミク");
+    
+    // printDataの引数を書き換えてください
+    printData(name, 16);
+    
+    // こちらは書き換えないでください
+    printData("John Christopher Smith", 世界8位);
+    
+  }
+
+  public static void printData(String name, int age) {
+    System.out.println("私の名前は" + name + "です");
+    System.out.println("年齢は" + age + "歳です");
+  }
+
+  // fullNameメソッドを定義してください
+  public static String fullName(String firstName, String lastName) {
+    return firstName + " " + lastName;
+  }
+  
+}
+
+
+
+
+
+class Main {
+  public static void main(String[] args) {
+    printData(fullName("初音", "ミク"), 16);
+    
+    // fullNameメソッドを用いて、printDataの引数を書き換えてください
+    printData(fullName("初音", "ミク", "電子の歌姫"), 16);
+  }
+
+  public static void printData(String name, int age) {
+    System.out.println("私の名前は" + name + "です");
+    System.out.println("年齢は" + age + "歳です");
+  }
+
+  public static String fullName(String firstName, String lastName) {
+    return firstName + " " + lastName;
+  }
+  
+  // fullNameメソッドを定義してください
+  public static String fullName(String firstName, String middleName, String lastName) {
+    return firstName + " " + middleName + " " + lastName;
+  }
+}
 
