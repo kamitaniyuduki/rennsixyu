@@ -393,3 +393,76 @@ while x > 0:　// (俺がギルメンに見られた回数がゼロ回の場合�
 
 
 
+class Main {
+  public static void main(String[] args) {
+    // int型の変数numberを定義してください
+    int number;
+    
+    // 変数numberに自分のランキングを代入してください
+    number = 100;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+
+    // String型の変数nameを定義してください
+    String name;
+    
+    // 変数nameに"Wanko"を代入してください
+    name = "kouno";
+    
+    // 変数nameを出力してください
+    System.out.println(name);
+    
+//タイムアタックスコア
+
+
+
+class Main {
+  public static void main(String[] args) {
+    int number = 11;
+    String text = "Ruby";
+    System.out.println(number);
+    System.out.println(text);
+    
+    // 変数numberを9で上書きしてください
+    number = 9;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+    // 変数textを「Java」で上書きしてください
+    text = "書き換えました";
+    
+    // 変数textを出力してください
+    System.out.println(text);
+
+    //正しいデータにカルテを書き換える練習
+  }
+}
+
+
+
+
+
+class Main {
+  public static void main(String[] args) {
+    int number = 11;
+    String text = "手塚";
+    System.out.println(number);
+    System.out.println(text);
+    
+    // 変数numberを9で上書きしてください
+    number = 9;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+    // 変数textを「Java」で上書きしてください
+    text = "胃がん";
+    
+    // 変数textを出力してください
+    System.out.println(text);
+
+    //正しいデータにカルテを書き換える練習
+  }
+}
