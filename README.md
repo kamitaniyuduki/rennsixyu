@@ -696,4 +696,55 @@ class Main {
 }
 
 
+//デートの日を入力する書類（遊園地の予約）
+class Main {
+  public static void main(String[] args) {
+    int month = 12;
+    int date = 31;
+    
+    // 「12月31日」となるように変数と文字列を連結して出力してください
+    System.out.println(month + "月" + date + "日");
+    
+    // 7を2で割った値を出力してください　//学生の割引プランの計算
+    System.out.println(7 / 2);
+    
+    // 7.0を2.0で割った値を出力してください　//時間に換算するとどれくらいか
+    System.out.println(7.0 / 2.0);
+    
+    // 7を2.0で割った値を出力してください
+    System.out.println(7 / 2.0);
+    
+  }
+}
 
+
+　//これをリアリティのある数値に直す
+
+
+
+
+//デートの日を入力する書類（遊園地の予約）
+class Main {
+  public static void main(String[] args) {
+    int month = 12;
+    int date = 31;
+    
+    // 「12月31日」となるように変数と文字列を連結して出力してください
+    System.out.println(month + "月" + date + "日");
+    
+    // 7を2で割った値を出力してください　//学生の割引プランの計算
+    System.out.println(7 / 2);
+    
+    // 7.0を2.0で割った値を出力してください　//時間に換算するとどれくらいか
+    System.out.println(7.0 / 1.7);
+    
+    // 7を2.0で割った値を出力してください
+    System.out.println(7 / 1.7);
+
+//実際は二時間も使ってなかったとするとこれくらいある
+    
+  }
+}
+
+
+　//これをリアリティのある数値に直す
