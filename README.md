@@ -837,3 +837,137 @@ class Main {
   }
 }
 
+
+class Main {
+  public static void main(String[] args) {
+    int number = 11;
+    String text = "そら";
+    System.out.println(number);
+    System.out.println(text);
+    
+    // 変数numberをカルテ番号で上書きしてください
+    number = 12;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+    // 変数textを病名で上書きしてください
+    text = "統合失調症";
+    
+    // 変数textを出力してください
+    System.out.println(text);
+
+    //正しいデータにカルテを書き換える練習　
+  }
+}
+
+
+//牛丼店
+
+menu_item1 = MenuItem()
+
+menu_item1.name = '牛丼店の数'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 チョコケーキ 」を代入してください
+menu_item2.name = '西中島'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に 牛丼店の数 を代入してください
+menu_item2.price = 2
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
+
+
+
+
+//ラーメン屋
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'ラーメン店の数'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 場所 」を代入してください
+menu_item2.name = '西中島'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に ラーメン店の数 を代入してください
+menu_item2.price = 16
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
+
+
+
+
+
+//ラーメン屋
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'ラーメン店の数'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 場所 」を代入してください
+menu_item2.name = '西中島'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に ラーメン店の数 を代入してください
+menu_item2.price = 16
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
+
+
+
+
+//ラーメン屋
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'ラーメン店の数'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 場所 」を代入してください
+menu_item2.name = '青森県深浦町岡崎'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に ラーメン店の数 を代入してください
+menu_item2.price = 17
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
