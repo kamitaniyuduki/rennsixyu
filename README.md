@@ -971,3 +971,62 @@ menu_item2.price = 17
 
 # menu_item2 の price を出力してください
 print(menu_item2.price)
+
+
+
+
+
+//ラーメン屋
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'ラーメン店の数'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 場所 」を代入してください
+menu_item2.name = '茨城県大洗'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に ラーメン店の数 を代入してください
+menu_item2.price = 4
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)****
+
+
+
+
+
+//ふぐ
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'ふぐ料理を扱う店の数'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 場所 」を代入してください
+menu_item2.name = '茨城県大洗'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に ふぐ料理店の数 を代入してください
+menu_item2.price = 14
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)****
+
