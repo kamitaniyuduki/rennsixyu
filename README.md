@@ -37,6 +37,28 @@ system.out.prinln(x * y)（糖尿病になる可能性）
 
 私がギルマスとして成功する
 
+
+
+import java.util.Scanner;
+
+class Main {
+  public static void main (String[] args) {
+    Scanner scanner = new Scanner(System.in);
+　　Scanner scanner = new Scanner(System.in);
+    //ログインページでまずユーザー名を決める
+    System.out.print("名前： ");
+        System.out.print("パスワード： ");
+    
+    // 変数nameを定義し、コンソールから文字列を受け取って代入してください
+    String name = scanner.next();
+String name2 = scanner.next();
+    
+    // 「こんにちは◯◯さん」と出力してください
+    System.out.println("こんにちは" + name + "さん");
+    System.out.println(Pass);
+  }
+}
+
 X = 100
 Y = 1  //ギルマスになれるとする
 
