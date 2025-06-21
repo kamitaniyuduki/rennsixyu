@@ -1181,3 +1181,54 @@ String name;
   
 }
 
+//書き換えてみる
+
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.print("ID：");
+    // 文字列の入力を受け取ってください
+    String firstName = 
+    
+    System.out.print("パスワード：");
+    // 文字列の入力を受け取ってください
+    String lastName = 
+    
+    System.out.print("電話番号：");
+    // 整数の入力を受け取ってください
+    int age = 
+    
+    System.out.print("(住所(m)：");
+    // 小数の入力を受け取ってください
+    double height = 
+    
+    System.out.print("性別(kg)：");
+    // 小数の入力を受け取ってください
+    double weight = 
+    
+    Person.printData(Person.fullName(firstName, lastName), age, height, weight);
+  }
+}
+
+
+
+
+//今度は暗記の練習
+
+　while = x > 0:
+ print(x)
+   break;
+ (そらが怒ったら)
+
+
+この場合　ほかの分はどうなのか
+これが答え
+while x > 0:　// (俺が卯月に見られた回数がゼロ回の場合、いっぱい遊んでサボり続けてください　これを繰り返し処理といいます）
+    # 変数 x を出力してください
+    print(x)
+    # 変数 x から 1 引いてください
+    x -= 1 //（怒られた数）
