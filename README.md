@@ -1307,6 +1307,37 @@ class Main {
     System.out.println(number);
     
   }
+
+
+
+
+
+
+//ラーメン屋
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'ラーメン店の数'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 場所 」を代入してください
+menu_item2.name = '岩手県岩手郡葛巻町'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に ラーメン店の数 を代入してください
+menu_item2.price = 17個
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
+
 }
 
 
