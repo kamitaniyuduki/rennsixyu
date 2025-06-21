@@ -1232,3 +1232,82 @@ while x > 0:　// (俺が卯月に見られた回数がゼロ回の場合、い�
     print(x)
     # 変数 x から 1 引いてください
     x -= 1 //（怒られた数）
+
+
+for fruit_key in fruits:
+    print(fruit_key + 'は' + fruits[fruit_key] + 'という意味です')
+    
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+//1 ピノ　2　えるむ　3そら 4 みるむ　5夢　6JIN　7ゆくふわ　8卯月
+for number in numbers:
+    # 変数 number の値が 3番のそら の倍数のとき、繰り返し処理をスキップしてください
+    if number % 3 == 0:
+        continue
+    print(number)
+
+   # 変数 number の値が 7番のゆくふわ の倍数のとき、繰り返し処理をスキップしてください
+    if number % 7 == 0:
+        continue
+    print(number)
+
+
+
+for number in numbners:
+  #変数 number の値が 3番のそら の倍数のとき、繰り返し処理をスキップしてください
+    if number % 3 == 0:
+        continue
+    print(number)
+
+
+//ラーメン屋
+
+menu_item1 = MenuItem()
+
+menu_item1.name = 'ラーメン店の数'
+print(menu_item1.name)
+
+menu_item1.price = 500
+print(menu_item1.price)
+
+# MenuItem クラスのインスタンスを生成してください
+menu_item2 = MenuItem()
+
+# menu_item2 の name に「 場所 」を代入してください
+menu_item2.name = '紀伊新庄'
+
+# menu_item2 の name を出力してください
+print(menu_item2.name)
+
+# menu_item2 の price に ラーメン店の数 を代入してください
+menu_item2.price = 16個
+
+# menu_item2 の price を出力してください
+print(menu_item2.price)
+
+
+
+
+
+//グッズの個数が間違っていたのでハッキングして書き換えます
+class Main {
+  public static void main(String[] args) {
+//薬の数を書き換えます
+    int number = 1;
+    
+    // 変数numberに7をかけて、変数numberを上書きしてください　もっとグッズ漬けにしてください
+    number *= 10;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+    // 変数numberの値に1を足して、変数numberを上書きしてください　グッズを一つ追加
+    number++;
+    
+    // 変数numberを出力してください
+    System.out.println(number);
+    
+  }
+}
+
+
+
